@@ -1,0 +1,45 @@
+#kutu1{
+    height: 80px;
+    width: 630px;
+    background-color: #07083F;
+    margin-bottom: 10px;
+}
+#kutu2{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    float: left;
+    margin-right: 10px;
+
+}
+#kutu3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    float: left;
+    margin-right: 10px;
+    
+}
+#kutu4{
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    float: left;
+    margin-right: 10px;
+}
+#kutu5{
+    height: 150px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    float: left;
+    
+}
+#kutu6{
+    height: 80px;
+    width: 630px;
+    background-color: #07083F;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    
+}

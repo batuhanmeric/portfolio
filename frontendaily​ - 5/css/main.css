@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Mulish', sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #EBEEF2;
+  padding: 40px;
+}
+
+.component--prices {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.component--prices .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 55px;
+}
+
+.component--prices .title h3 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.component--prices .title label {
+  width: 212px;
+  height: 50px;
+  background-color: #D4D9E0;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.component--prices .title label::before {
+  content: "";
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+
+.component--prices .title label span {
+  width: 100px;
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #171922;
+  opacity: .7;
+}
+
+.packages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px;
+}
+
+.packages .package {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 20px;
+  background-color: #fff;
+  padding: 45px;
+  color: #171922;
+  font-weight: bold;
+  -webkit-transition: 400ms -webkit-box-shadow ease-in-out;
+  transition: 400ms -webkit-box-shadow ease-in-out;
+  transition: 400ms box-shadow ease-in-out;
+  transition: 400ms box-shadow ease-in-out, 400ms -webkit-box-shadow ease-in-out;
+}
+
+.packages .package h6 {
+  margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.packages .package .price-info {
+  margin-bottom: 30px;
+}
+
+.packages .package .price-info .price {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.packages .package .price-info .description {
+  font-size: 18px;
+  opacity: .71;
+}
+
+.packages .package p {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: .71;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+
+.packages .package .button {
+  height: 60px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px solid #171922;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #171922;
+  -webkit-transition: 400ms  background-color ease-in-out, 400ms color ease-in-out;
+  transition: 400ms  background-color ease-in-out, 400ms color ease-in-out;
+}
+
+.packages .package .button:hover {
+  background-color: #171922;
+  color: #fff;
+  -webkit-box-shadow: 0 19px 50px -20px rgba(134, 147, 164, 0.74);
+          box-shadow: 0 19px 50px -20px rgba(134, 147, 164, 0.74);
+}
+/*# sourceMappingURL=main.css.map */

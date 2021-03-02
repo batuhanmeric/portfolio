@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ust{
+    background-color: #3B5998;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid#222;
+}
+.usticerik{
+    width: 980px;
+    margin: 0 auto;
+}
+.facebook img{
+width: 180px;
+float: left;/* float: left Öğeleri sola yaslamak için; float: right Öğeleri sağa yaslamak için kullanılır.*/
+padding-top: 30px;
+}
+.giris{
+    float: right;
+    padding-top: 10px;
+}
+.giris label{
+    color: #fff;
+    font-size: 12px;
+    margin: 3px 0;
+    display: block;
+    margin-left: 15px;
+}
+.giris input[type="text"], .giris input[type="password"]{
+    width: 150px;
+    margin-left: 15px;
+    padding: 3px;
+    border: 1px solid #222;
+    outline: none;
+}
+.giris a{
+    text-decoration: none;
+    color: #9cb4dB;
+    font-size: 12px;
+    margin-left: 15px;
+    padding-bottom: 3px;
+    display: inline-block;
+    padding-top: 3px;
+}
+.giris a:hover{
+    text-decoration: underline;
+}
+.giris input[type="submit"]{
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    border-radius: 2px;
+    padding: 4px 6px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.giris input[type="submit"]:hover{
+    background-color: #3B5998;
+}
+
+/*ORTA --------------------------------------------------------*/
+.orta{
+background: linear-gradient(rgb(253,253,254),rgb(218,222,235));/*Renkler arası geçişi sağlıyoruz.*/
+overflow: hidden;
+
+}
+.ortaicerik{
+    width: 980px;
+    margin: 0 auto;/*ortalamak adına bunu kullanıyoruz.*/
+}
+.ortasol{
+    width: 580px;
+    float: left;
+}
+.yazi{
+    font-size: 20px;
+    font-weight: bold;
+    width: 450px;
+    color: #0e385f;
+    line-height: 29px;
+    word-spacing: -1px;/*kelimeler arasındaki boşluk*/
+    margin-top: 40px;
+}
+.ortasag{
+    float: left;
+    width: 400px;
+    margin-top: 20px;
+}
+.ortasag .hesapac{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333";
+}
+.altbaslik{
+    font-size: 19px;
+    margin: 10px 0;
+    color: #333;
+}
+.adsoyad .ad input, .soyad input{
+    
+    float: left;
+    width: 180px;
+    border: 1px solid#BDC7D8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 5px;
+    outline: none;
+    margin-top: 5px;
+}
+.adsoyad .soyad input{
+    margin-left: 10px;
+}
+.telefon input, .sifre input{
+    width: 400px;
+    border: 1px solid#BDC7D8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    outline: none;
+}
+.tarih{
+    margin-top: 15px;
+    display: inline-block;
+}
+.tarih1{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #1d2129;
+}
+.tarih2 select{
+    float: left;
+    border: 1px solid#BDC7DB;
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 3px;
+}
+.tarih3{
+    margin-left: 10px;
+    width: 150px;
+    line-height: 13px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.tarih3 a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #365899;
+}
+.tarih3 a:hover{
+    text-decoration: underline;/*Bu kod yazının üzerine geldiğimizde altının çizilmesini sağlıyor.*/
+}
+.cinsiyet span{
+    display: inline-block;
+    font-size: 18px;
+    margin: 18px 10px;
+    color: #1d2129;
+    font-weight: normal;
+}
+.sozlesme{
+    font-size: 11px;
+    color: #777;
+    width: 320px;
+}
+.sozlesme a{
+    text-decoration: none;
+    color: #365899;
+}
+.sozlesme a:hover{
+    text-decoration: underline;
+}
+.button{
+    margin: 20px 0;
+}
+.button input{
+    background: linear-gradient(#67ae55,#578843);
+    font-size: 17px;
+    padding: 7px 20px;
+    width: 200px;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: insert 0 1px 1px #a4e388;/*insert diyerek gölgelendirmeyi içerden yap komutunu verdik */
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);/*0 ve 1px yukarı,aşağı,sağ,sol u 2px ise yoğunlunu*/
+    color: #fff;
+    cursor: pointer;
+}
+.not{
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.not a{
+    text-decoration: none;
+    color: #365899;
+}
+.not a:hover{
+    text-decoration: underline;
+}
+.alt{
+    width: 980px;
+    margin: 0 auto;
+}
+.alt1{
+    width: 100%;
+    border-bottom: 1px solid#ddd;
+    margin-top: 25px;
+}
+.alt1 li{
+    display: inline-block;
+    font-size: 12px;
+    color: #737373;
+    padding: 10px 7px 10px 0;
+}
+.alt1 li a{
+    text-decoration: none;
+    color: #356899;
+}
+.alt1 li a:hover{
+    text-decoration: underline;
+}
+.alt1 li a img{
+    width: 15px;
+    height: 15px;
+    padding: 2px 7px;
+    border: 1px solid#ddd;
+    border-radius: 2px;
+    background-color: #f6f7f9;
+}
+.alt1 li:last-child{/*last-child bir grup çocuğun sonuncusunu temsil eder.*/
+position: relative;
+top: 5px;
+}
+.alt1 li a img:hover{
+    background-color: #f0f0f0;
+}
+.alt2 li{
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 8px 0 0 ;
+}
+.alt2 li a{
+    text-decoration: none;
+    color: #356899;
+}
+.alt2 li a:hover{
+    text-decoration: underline;
+}
+.alt3{
+    font-size: 11px;
+    color: #737373;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

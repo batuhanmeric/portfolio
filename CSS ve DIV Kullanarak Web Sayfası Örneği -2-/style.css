@@ -1,0 +1,89 @@
+body,h1,li,ul,p{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 1000px;
+    background: #978F8F;
+    margin: 10px auto;
+}
+.content .ust{
+    background-color: #9F1C1E;
+    width: 1000px;
+    height: 150px;
+}
+.content .ust .baslik{
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+    font-size: 1.2em;
+}
+.content .ust #menu{
+    list-style: none;
+    margin-top: 45px;
+    float: left;
+    clear: both;
+    
+    
+}
+.content .ust #menu li{
+    float: left;
+}
+.content .ust #menu li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.content .ust #menu li a:hover{
+    background-color: black;
+    border-radius: 3px;
+}
+.orta{
+    width: 1000px;
+    height: 425px;
+}
+.orta .orta-sol{
+    width: 800px;
+    height: 425px;
+    background-color: honeydew;
+    float: left;
+    margin-top: 2px;
+   
+    
+    
+}
+.orta .orta-sag{
+    width: 200px;
+    height: 415px;
+    float: left;
+}
+.orta .orta-sag h3{
+    color: honeydew;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.orta .orta-sag #liste{
+    margin-left: 15px;
+    list-style: none;
+    line-height: 25px;
+    
+}
+.orta .orta-sag li a{
+    text-decoration: none;
+    color: honeydew;
+    
+}
+.alt{
+    height: 25px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.temizle{
+    clear: both;
+}

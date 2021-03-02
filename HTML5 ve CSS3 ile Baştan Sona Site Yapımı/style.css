@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+#social{
+    background-color: black;
+    color: white;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    padding: 15px;
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+    
+}
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#social i{
+    margin-right: 15px;
+    float: right;
+}
+#social i:hover{
+    opacity: 0.8;
+}
+#container{
+    width: 80%;
+    margin: auto;/*Bu kod ile sayfamızın sağ ve soldan boşlukları otomotik olarak eşit ayarlar*/
+    height: auto;/*gelecek içeriği göre sayfanın yüksekliğini kendisi otomatik ayarlıcak*/
+}
+header{
+    width: 100%;/*yüz de 80 lik container ın yüz de yüzünü kapla anlamında*/
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    position: relative;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+#headerResim{
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#centered{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 65px;
+    overflow: hidden;
+}
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 18px;
+    height: auto;
+}
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style: none; 
+}
+nav li a{
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    border-bottom: 1px solid #b1b1b1;
+    padding-left: 20px;
+    display: block;
+}
+nav li a:hover{
+    color: white;
+    background-color: #adadad;
+}
+i{
+    margin-right: 10px;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    
+}
+.icerik{
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 15px;
+}
+.rsm{
+    width: 100%;
+    
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     transition: opacity 0.8s; /*Aşağıda hover özlliği ile resimlere geçiş efekti verdik bu kod ise efektin bir anda değilde 0.8s de gerçekleşmesini sağladık.*/
+}
+.rsm:hover{
+    opacity: 0.6;
+}
+h5{
+    margin: 10px;
+    color: dimgray;
+}
+.icerikText{
+    margin: 10px;
+    color: dimgray;
+}
+.btnDevam{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #0071ce;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+.btnDevam:hover{
+    opacity: 0.8;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);/*Footer a gölgelendirme işlemi yaptık.*/
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 5px; 
+}
+#hakRsm{
+    width: 40%;
+    height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin: 15px; 
+    transition: opacity 0.8s;
+}
+#hakRsm:hover{
+    opacity: 0.6;
+}
+.hakYazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #494949;
+    text-indent: 40px;/*paragraf başı yapar*/
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.referans{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    float: left;
+}
+.resRef{
+width: 100%;
+height: 180px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+
+}
+.resRef:hover{
+    opacity: 0.8;
+}
+.refBaslik{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 0px;
+    color: black;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: -15px;
+}
+.refDetay{
+    text-align: center;
+    
+}
+.galResim{
+    width: 22%;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+    transition: all 0.6s;
+    object-fit: cover;/*resimlerimizin orjinalliğini birazdaha korur.*/
+    
+    
+
+}
+.galResim:hover{
+    opacity: 1;
+    border: 5px solid black;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
+iframe{
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+.section1{
+    width: 98%;
+    height: auto;
+    margin-top: 10px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+}
+.form{
+    width: 49%;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.col25{
+    width: 25%;
+    margin-top: 5px;
+    float: left;
+}
+.col75{
+    width: 75%;
+    margin-top: 5px;
+    float: left;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=text],textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+
+}
+.adres{
+    width: 48%;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-left: 13px;
+    float: left;
+}
+h2{
+    text-align: center;
+}
+.span1{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}

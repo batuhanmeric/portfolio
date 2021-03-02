@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: chartreuse;
+}
+.content{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.content .ust{
+    height: 150px;
+    background-color: cyan;
+}
+.content .menu{
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+.content .orta .orta-sol{
+    width: 200px;
+    background-color: darkorchid;
+    height: 400px;
+    float: left;
+}
+.content .orta .orta-sag{
+    background-color: deeppink;
+    width: 800px;
+    height: 400px;
+    float: left;
+    
+}
+.temizle{
+    clear: both;
+}
+.content .alt{
+    height: 40px;
+    width: 1000px;
+    float: left;
+    background-color: dimgrey;
+}
