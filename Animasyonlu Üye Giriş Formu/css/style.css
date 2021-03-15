@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(https://tekvizyonpc.com/media/k2/items/cache/398a8bc2e3f7f879ff0986359513be80_XL.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+body form {
+  background: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  width: 300px;
+  height: 400px;
+}
+
+body form h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+body form input {
+  border: none;
+  background: none;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  border: 2px solid #55E6C1;
+  height: 30px;
+  border-radius: 40px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+body form input:last-child {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  width: 40%;
+  cursor: pointer;
+}
+
+body form input:last-child:hover {
+  background-color: #55E6C1;
+}
+
+body form .input1 {
+  border: 2px solid #1B9CFC;
+  width: 70%;
+}
+
+body form .input1:hover {
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */
