@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Mulish',sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #E7EAFB;
+}
+
+.component--job-item {
+  background-color: #fff;
+  -webkit-box-shadow: 0 21px 87px -35px rgba(80, 98, 211, 0.5);
+          box-shadow: 0 21px 87px -35px rgba(80, 98, 211, 0.5);
+  border-radius: 20px;
+  width: 606px;
+  height: 290px;
+  margin-left: 216px;
+  margin-top: 242px;
+}
+
+.component--job-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+
+.component--job-item a .title {
+  color: #111127;
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 32.13px;
+  margin-bottom: 5px;
+}
+
+.component--job-item a .alt-title {
+  color: rgba(17, 17, 39, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.08px;
+  margin-bottom: 21px;
+}
+
+.component--job-item a p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #111127;
+  margin-bottom: 25px;
+}
+
+.component--job-item a .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.component--job-item a .tags span {
+  margin-right: 10px;
+  color: #111127;
+  background-color: #E7EAFB;
+  border-radius: 21.5px;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  list-style: 17.57px;
+  margin: 0 10px 10px 0;
+}
+
+.component--job-item a .tags span:hover {
+  background: #dadff9;
+}
+
+.component--job-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.component--job-items li {
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 734px;
+  height: 104px;
+  -webkit-transition: 0.3s -webkit-transform;
+  transition: 0.3s -webkit-transform;
+  transition: 0.3s transform;
+  transition: 0.3s transform, 0.3s -webkit-transform;
+}
+
+.component--job-items li:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.component--job-items li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 45px 20px 20px;
+}
+
+.component--job-items li a .avatar {
+  color: var(--color);
+  font-weight: 700;
+  font-size: 30px;
+  min-width: 64px;
+  height: 64px;
+  border: 2px solid #E7EAFB;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-right: 15px;
+}
+
+.component--job-items li a .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.component--job-items li a .detail .title {
+  font-size: 20px;
+  font-weight: 700;
+  list-style: 25.1px;
+  color: #111127;
+  margin-bottom: 9px;
+}
+
+.component--job-items li a .detail .position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.08px;
+  color: rgba(17, 17, 39, 0.7);
+}
+
+.component--job-items li a .location {
+  position: absolute;
+  right: 45px;
+  font-size: 16px;
+  color: #111127;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: .6;
+}
+
+.component--job-items li a .location img {
+  margin-right: 5px;
+}
+
+.component--job-filter {
+  width: 300px;
+  height: 690px;
+  border: 1px solid #E7EAFB;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 897px;
+  top: 240px;
+}
+
+.component--job-filter .search {
+  width: 246.99px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 31px;
+}
+
+.component--job-filter .search img {
+  width: 31px;
+  height: 30px;
+  margin-right: 7.3px;
+}
+
+.component--job-filter .search input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.08px;
+}
+
+.component--job-filter .search input::-webkit-input-placeholder {
+  color: rgba(17, 17, 39, 0.7);
+}
+
+.component--job-filter .search input:-ms-input-placeholder {
+  color: rgba(17, 17, 39, 0.7);
+}
+
+.component--job-filter .search input::-ms-input-placeholder {
+  color: rgba(17, 17, 39, 0.7);
+}
+
+.component--job-filter .search input::placeholder {
+  color: rgba(17, 17, 39, 0.7);
+}
+
+.component--job-filter hr {
+  border: 1px solid #F2F2F2;
+  width: 298px;
+  margin-bottom: 30px;
+}
+
+.component--job-filter h6 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.06px;
+  color: #111127, 100%;
+  margin-bottom: 25px;
+  margin-left: 31px;
+}
+
+.component--job-filter .checkbox-list {
+  padding-bottom: 40px;
+}
+
+.component--job-filter .checkbox-list li {
+  margin: 0 0 20px 31px;
+}
+
+.component--job-filter .checkbox-list li:last-child {
+  margin: 0 0 0 31px;
+}
+
+.component--job-filter .checkbox-list li label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.component--job-filter .checkbox-list li label .checkbox {
+  width: 27px;
+  height: 27px;
+  border-radius: 5px;
+  border: 2px solid #E7EAFB;
+  background: #fff url(../img/Path.svg) no-repeat center;
+  min-width: 27px;
+  -webkit-transition: 300ms background-color, 300ms border-color;
+  transition: 300ms background-color, 300ms border-color;
+  margin-right: 15px;
+}
+
+.component--job-filter .checkbox-list li label .text {
+  font-size: 16px;
+  color: #111127;
+}
+
+.component--job-filter .checkbox-list li label input {
+  display: none;
+}
+
+.component--job-filter .checkbox-list li label input:checked + .checkbox {
+  background-color: #8A9CFF;
+  border-color: #8A9CFF;
+}
+
+.component--job-filter .filter-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 31px;
+}
+
+.component--job-filter .filter-form li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 246px;
+  height: 71px;
+  margin-bottom: 20px;
+}
+
+.component--job-filter .filter-form li:last-child {
+  margin-bottom: 0;
+}
+
+.component--job-filter .filter-form li label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111127;
+  margin-bottom: 10px;
+}
+
+.component--job-filter .filter-form li select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  border: 2px solid #E7EAFB;
+  background: #fff url(../img/icon-down-arrow.svg) no-repeat right;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 20px;
+  -webkit-transition: 300ms border-color;
+  transition: 300ms border-color;
+}
+
+.component--job-filter .filter-form li select:hover {
+  border-color: #dadff9;
+}
+
+.component--job-filter .filter-form li select:focus {
+  border-color: #8A9CFF;
+}
+
+.component--job-filter .filter-form li button {
+  width: 100%;
+  height: 57px;
+  background: #8A9CFF;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 11px 30px -15px #6778E1;
+          box-shadow: 0 11px 30px -15px #6778E1;
+  -webkit-transition: 300ms  all;
+  transition: 300ms  all;
+}
+
+.component--job-filter .filter-form li button:hover {
+  background: #5771ff;
+}
+
+.component--job-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 232px;
+  height: 71px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 11px 30px -15px;
+          box-shadow: 0 11px 30px -15px;
+  color: #111127;
+  left: 630px;
+  top: 109px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 11px 30px -15px #6778E18A;
+          box-shadow: 0px 11px 30px -15px #6778E18A;
+  -webkit-transition: 300ms -webkit-transform;
+  transition: 300ms -webkit-transform;
+  transition: 300ms transform;
+  transition: 300ms transform, 300ms -webkit-transform;
+}
+
+.component--job-button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  color: #5062D3;
+}
+
+.component--job-button img {
+  margin-left: 24px;
+}
+/*# sourceMappingURL=style.css.map */
